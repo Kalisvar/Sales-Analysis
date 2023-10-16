@@ -28,6 +28,29 @@ The dataset was obtained from the Kaggle. This dataset contains sales transactio
 | gross_income            | Gross Income                            | DECIMAL(10, 2) |
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
+
+
+**METHOD USED:**
+
+**DATA cleaning :**
+
+In this initial step, data is inspected to ensure that NULL values and missing values are identified, and data replacement techniques are applied to replace any missing or NULL values.
+
+- Build the database.
+- Created the table and inserted the csv file into the database table.
+
+To provide insight into sales in the morning, afternoon, and evening, add a new column called time\_of\_day. The question of when most sales are made during the day will be helped by this.
+
+Create a new column called day\_name that holds the extracted days of the week (Mon, Tue, Wed, Thur, Fri) that the provided transaction occurred on. This will provide insight into the busiest day of the week for each branch.
+
+Create a new column called month\_name that holds the extracted months of the year (Jan, Feb, Mar) on which the specified transaction occurred. Identify the month of the year with the most sales and profits.
+
+**EXPLORATORY DATA ANALYSIS :**
+
+It is done to answer the business questions and aims of this project.
+
+**CONCLUSION:**
+
 **BUSINESS QUESTION :**
 
 **GENRIC QUESTION:**
@@ -69,24 +92,3 @@ The dataset was obtained from the Kaggle. This dataset contains sales transactio
 8. Which time of the day do customers give most ratings per branch?
 9. Which day fo the week has the best avg ratings?
 10. Which day of the week has the best average ratings per branch?
-
-**METHOD USED:**
-
-**DATA cleaning :**
-
-In this initial step, data is inspected to ensure that NULL values and missing values are identified, and data replacement techniques are applied to replace any missing or NULL values.
-
-- Build the database.
-- Created the table and inserted the csv file into the database table.
-
-To provide insight into sales in the morning, afternoon, and evening, add a new column called time\_of\_day. The question of when most sales are made during the day will be helped by this.
-
-Create a new column called day\_name that holds the extracted days of the week (Mon, Tue, Wed, Thur, Fri) that the provided transaction occurred on. This will provide insight into the busiest day of the week for each branch.
-
-Create a new column called month\_name that holds the extracted months of the year (Jan, Feb, Mar) on which the specified transaction occurred. Identify the month of the year with the most sales and profits.
-
-**EXPLORATORY DATA ANALYSIS :**
-
-It is done to answer the business questions and aims of this project.
-
-**CONCLUSION:**
